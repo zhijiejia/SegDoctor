@@ -41,7 +41,7 @@ The pretrained model in [[百度网盘]](https://pan.baidu.com/s/1967fppZDAtRyIJ
  CUDA_VISIBLE_DEVICES="0" torchrun \
    --nproc_per_node=1 \
    --master_port='29507' \
-     finetune_seg.py \
+     train_seg.py \
    --use_ddp \
    --sync_bn \
    --num_classes 21 \
